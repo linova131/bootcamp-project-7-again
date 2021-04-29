@@ -15,7 +15,9 @@ function PhotoContainer(props) {
   // photos = photoData.map(photo =>
   //   <Photo server={photo.server} id={photo.id} secret={photo.secret} title={photo.title} key={photo.id}/>
   // );
-
+ for (const photo in photoData) {
+   console.log(photo)
+ }
   return(
     <p>Hello i'm a photocontainer</p>
   )
