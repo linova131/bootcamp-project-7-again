@@ -1,6 +1,11 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import Context from '../context';
 
 function Home () {
+  const context = useContext(Context)
+
+  console.log(context.orioles)
+
 
   return(
     <div>
